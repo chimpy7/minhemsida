@@ -1,0 +1,54 @@
+{
+  "projects": [
+    {
+      "title": "resume app maker",
+      "tech": ["React", "TypeScript","next.js","mongodb"],
+      "img":"/resume.png",
+      "description": "A full-stack cv maker application focused on creating interactive resumes that u can send out, storing user data.  a true fullstack application. the app has been depricated and is no longer maintined or has a live link but the code is available on github",
+      "link": "https://github.com/chimpy7/PortfolioSite"
+    },
+    {
+      "title": "Portfolio",
+      "tech": ["Vite", "React"],
+      "img":"https://res.cloudinary.com/dzj8q3l6o/image/upload/v1700000000/portfolio_screenshot.png",
+      "description": "A personal portfolio site built with React and Vite to present projects, technical skills, and professional background with a clean responsive interface.",
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "category": "Frontend",
+      "items": ["{vue}", "  {React}", " {TypeScript}", " {Tailwind}", " {next.js}", " {vite}", " {redux}"]
+    },
+    {
+      "category": "Backend",
+      "items": ["{Node.js}", " {Express}", " {MongoDB}", " {MySQL}", "{GraphQL}", " {prisma}"]
+    },
+    {
+      "category": "Other",
+      "items": ["{Git}", " {Docker}", " {AWS}", " {CI/CD}"]
+    }, {  
+      "category":"Architecture",
+      "items": ["{REST APIs}", " {API integrations}", " {Authentication}", " {Performance optimization}"]
+    } 
+
+
+  ],
+  "me":[
+    {
+   "intrestes":"I enjoy learning new topics in technology and science, especially physics and astronomy. Outside of development, I like gaming, movies, and TV shows, which keeps me curious about design, systems, and how people interact with digital experiences.",
+   "merit":"I am Alex, a developer based in Stockholm with experience in JavaScript and modern tools like Vite. I enjoy building projects from scratch and working across both frontend and backend. I have worked with backend concepts such as middleware and database design, and I have used both SQL databases like MySQL and NoSQL databases like MongoDB. I am especially interested in how good structure and architecture impact real-world applications. I also have practical experience from internships at two companies, where I wrote code, designed high-level design documents, and created database relationship diagrams. I enjoy MongoDB for its flexibility when designing data models, and I am also strong at analyzing and breaking down website structures and design systems. I am looking to contribute to a real team, continue improving, and work on larger projects where I can grow and add value.",
+
+   "strength":["focused","problem solver","engaged","easy going"],
+   "weakness":["matching engagment","lack of experience","impatience"]
+
+    }
+  ],
+
+  "home":[
+    {
+      "title":"A developer in training",
+      "description":"I’m Alex, a developer based in Stockholm with experience in JavaScript and modern frameworks like Vite and nextjs. I enjoy building projects from scratch and working across both frontend and backend.   I’ve worked with backend concepts such as middleware and database design and have used both mysql and nosql dbs like mongodb, and I’m especially interested in how good structure and architecture impact real-world applications. i have also practical experience as ive interned at two companys and have practical expierence writing code and designing HLD documents and DB relations images  I’ve used MongoDB and enjoy its flexibility when designing data models. and im also quite good at analysing and destructing websites structures and design structures.   I’m looking to contribute to a real team, continue improving, and work on larger projects where I can grow and add value."
+}
+  ]
+}
