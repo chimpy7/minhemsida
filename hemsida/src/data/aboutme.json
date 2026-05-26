@@ -40,7 +40,7 @@
    "merit":"I am Alex, a developer based in Stockholm with experience in JavaScript and modern tools like Vite. I enjoy building projects from scratch and working across both frontend and backend. I have worked with backend concepts such as middleware and database design, and I have used both SQL databases like MySQL and NoSQL databases like MongoDB. I am especially interested in how good structure and architecture impact real-world applications. I also have practical experience from internships at two companies, where I wrote code, designed high-level design documents, and created database relationship diagrams. I enjoy MongoDB for its flexibility when designing data models, and I am also strong at analyzing and breaking down website structures and design systems. I am looking to contribute to a real team, continue improving, and work on larger projects where I can grow and add value.",
 
    "strength":["focused","problem solver","engaged","easy going"],
-   "weakness":["matching engagment","lack of experience","impatience"]
+   "weakness":["Improving Delivery Speed","Gaining More Experience","Team Communication"]
 
     }
   ],
@@ -48,7 +48,7 @@
   "home":[
     {
       "title":"A developer in training",
-      "description":"I’m Alex, a developer based in Stockholm with experience in JavaScript and modern frameworks like Vite and nextjs. I enjoy building projects from scratch and working across both frontend and backend.   I’ve worked with backend concepts such as middleware and database design and have used both mysql and nosql dbs like mongodb, and I’m especially interested in how good structure and architecture impact real-world applications. i have also practical experience as ive interned at two companys and have practical expierence writing code and designing HLD documents and DB relations images  I’ve used MongoDB and enjoy its flexibility when designing data models. and im also quite good at analysing and destructing websites structures and design structures.   I’m looking to contribute to a real team, continue improving, and work on larger projects where I can grow and add value."
-}
+ "description": "I’m Alex, a developer based in Stockholm with experience in JavaScript, TypeScript, Vite, Next.js, and backend development. I enjoy building projects from scratch and understanding how frontend, backend, and databases connect.\n\nThrough my internships, I have worked with frontend development, bug fixes, TypeScript migration, technical documentation, high-level design documents, and database relationship diagrams. I’m especially interested in backend structure, authentication, database design, and how good architecture affects real-world applications.\n\nI enjoy working with MongoDB because of its flexibility when designing data models, and I like analyzing how websites and systems are structured. I’m looking to contribute to a real team, keep improving, and work on larger projects where I can grow and add value."
+    }
   ]
 }

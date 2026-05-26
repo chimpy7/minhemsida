@@ -132,10 +132,7 @@ export default function About() {
             What I am improving
           </h2>
           <p className="mt-4 text-base leading-8 text-slate-600">
-            I am early in my career and actively building experience through
-            projects, feedback, and consistent practice. I work best when I can
-            match strong engagement with clear direction and keep improving how
-            I plan, communicate, and deliver.
+          I am early in my career and actively building experience through projects, feedback and consistent practice. I am improving how I plan, communicate, estimate tasks and deliver work in a team environment.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             {me.weakness.map((weakness) => (
