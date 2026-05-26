@@ -1,3 +1,5 @@
+import { Check, Code, Sparkles } from "lucide-react";
+
 import aboutme from "../data/aboutme.json";
 
 const me = aboutme.me[0];
@@ -58,7 +60,7 @@ export default function About() {
             {focusAreas.map((area) => (
               <li key={area} className="flex items-center gap-3">
                 <span className="grid size-8 shrink-0 place-items-center rounded-md bg-white text-sm font-black text-[#8a5f3d]">
-                  <i className="bi bi-check2" aria-hidden="true" />
+                  <Check className="size-4" aria-hidden="true" />
                 </span>
                 <span className="text-base font-semibold">{area}</span>
               </li>
@@ -71,7 +73,7 @@ export default function About() {
         <article className="rounded-lg border border-slate-200 bg-white p-7 text-left shadow-sm">
           <div className="mb-5 flex items-center gap-3">
             <span className="grid size-11 place-items-center rounded-md bg-[#dbba9b]/20 text-[#8a5f3d]">
-              <i className="bi bi-code-slash text-lg" aria-hidden="true" />
+              <Code className="size-5" aria-hidden="true" />
             </span>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#dbba9b]">
@@ -88,7 +90,7 @@ export default function About() {
         <article className="rounded-lg border border-slate-200 bg-white p-7 text-left shadow-sm">
           <div className="mb-5 flex items-center gap-3">
             <span className="grid size-11 place-items-center rounded-md bg-[#dbba9b]/20 text-[#8a5f3d]">
-              <i className="bi bi-stars text-lg" aria-hidden="true" />
+              <Sparkles className="size-5" aria-hidden="true" />
             </span>
             <div>
               <p className="text-sm font-bold uppercase tracking-[0.16em] text-[#dbba9b]">

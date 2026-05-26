@@ -1,19 +1,25 @@
+import { Facebook, Github, Linkedin, type LucideIcon } from "lucide-react";
+
 export default function Footer() {
-  const FooterLinks = [
+  const FooterLinks: {
+    name: string;
+    href: string;
+    Icon: LucideIcon;
+  }[] = [
     {
       name: "Facebook",
       href: "https://www.facebook.com",
-      icon: "bi-facebook",
+      Icon: Facebook,
     },
     {
       name: "LinkedIn",
       href: "https://www.linkedin.com/in/aleksandar-cesljar-15a653286/",
-      icon: "bi-linkedin",
+      Icon: Linkedin,
     },
     {
       name: "GitHub",
       href: "https://github.com/chimpy7",
-      icon: "bi-github",
+      Icon: Github,
     },
   ];
 
@@ -26,20 +32,24 @@ export default function Footer() {
 
         <nav aria-label="Social links">
           <ul className="flex items-center justify-center gap-2">
-            {FooterLinks.map((link) => (
-              <li key={link.name}>
-                <a
-                  href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label={link.name}
-                  title={link.name}
-                  className="group grid size-11 place-items-center rounded-md border border-[#dbba9b]/30 bg-white text-[#8a5f3d] shadow-sm transition-colors hover:border-[#dbba9b] hover:bg-[#dbba9b] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dbba9b] focus-visible:ring-offset-2"
-                >
-                  <i className={`bi ${link.icon} text-lg`} aria-hidden="true" />
-                </a>
-              </li>
-            ))}
+            {FooterLinks.map((link) => {
+              const Icon = link.Icon;
+
+              return (
+                <li key={link.name}>
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={link.name}
+                    title={link.name}
+                    className="group grid size-11 place-items-center rounded-md border border-[#dbba9b]/30 bg-white text-[#8a5f3d] shadow-sm transition-colors hover:border-[#dbba9b] hover:bg-[#dbba9b] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#dbba9b] focus-visible:ring-offset-2"
+                  >
+                    <Icon className="size-5" aria-hidden="true" />
+                  </a>
+                </li>
+              );
+            })}
           </ul>
         </nav>
 
