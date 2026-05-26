@@ -6,16 +6,6 @@ const homeDescription = home.description.replace(/I[^\sA-Za-z0-9]{1,16}m/g, "I'm
   "I've"
 );
 
-
-const stackItems = ["React", "Node.js", "TypeScript"];
-
-const codeLines = [
-  "const developer = 'Aleksandar';",
-  "build.interface({ tactile: true });",
-  "ship.api('clean', 'scalable');",
-  "learn.everyDay();",
-];
-
 export default function Home() {
   return (
     <section className="mx-auto flex min-h-[calc(100vh-14rem)] w-full max-w-7xl items-center px-5 py-12 font-['Manrope'] sm:px-8 lg:py-20">
@@ -40,13 +30,13 @@ export default function Home() {
 
           <div className="mt-4 flex flex-wrap gap-4">
             <a
-              href="/projects"
+              href="#/projects"
               className="inline-flex min-h-14 items-center justify-center rounded-full bg-[#dbba9b] px-8 py-4 text-sm font-extrabold tracking-wide text-white shadow-[0_8px_40px_-12px_rgba(26,28,26,0.25)] transition-colors hover:bg-[#944925] hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#944925] focus-visible:ring-offset-2 focus-visible:ring-offset-[#faf9f6]"
             >
               View My Work
             </a>
             <a
-              href="/about"
+              href="#/about"
               className="inline-flex min-h-14 items-center justify-center rounded-full border border-[#d9c1bc] bg-transparent px-8 py-4 text-sm font-extrabold tracking-wide text-[#583e3a] transition-colors hover:bg-[#efeeeb] hover:text-[#583e3a] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#944925] focus-visible:ring-offset-2 focus-visible:ring-offset-[#faf9f6]"
             >
               Read the Manifest
